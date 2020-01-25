@@ -17,7 +17,7 @@ jobs:
           node-version: '10'
       - run: npm install
       - run: npm test
-      - name: Build nsfw release
+      - name: Build nsfwjsrelease
         run: |
           yarn prep 
           cd example/nsfw_demo
